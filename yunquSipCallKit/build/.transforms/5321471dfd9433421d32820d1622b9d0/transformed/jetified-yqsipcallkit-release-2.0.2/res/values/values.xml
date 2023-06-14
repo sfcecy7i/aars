@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YQCaptureTextureView">
+        <attr format="enum" name="yq_belong">
+            <enum name="REMOTE" value="0"/>
+            <enum name="LOCAL" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="YQPlaneView">
+        <attr format="boolean" name="isOnlyLocal"/>
+        <attr format="boolean" name="isOnlyRemote"/>
+        <attr format="dimension" name="localBorderWidth"/>
+        <attr format="color" name="localBorderColor"/>
+        <attr format="enum" name="localScaleType">
+            <enum name="DEFAULT" value="0"/>
+            <enum name="FIT" value="1"/>
+            <enum name="CENTER" value="2"/>
+            <enum name="CENTER_CROP" value="3"/>
+        </attr>
+        <attr format="enum" name="remoteScaleType">
+            <enum name="DEFAULT" value="0"/>
+            <enum name="FIT" value="1"/>
+            <enum name="CENTER" value="2"/>
+            <enum name="CENTER_CROP" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
